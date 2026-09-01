@@ -1,1 +1,110 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S. Mobile Edition</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Header -->
+        <header>
+            <div class="brand">
+                <div class="logo">J</div>
+                <div>
+                    <h1>J.A.R.V.I.S.</h1>
+                    <p>MOBILE EDITION</p>
+                </div>
+            </div>
+
+            <div class="status">
+                <span></span> ONLINE
+            </div>
+        </header>
+
+        <!-- Arc Reactor -->
+        <section class="reactor-section">
+            <div class="reactor">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <div class="ring ring-3"></div>
+                <div class="core">
+                    <span>J</span>
+                </div>
+            </div>
+
+            <h2>SYSTEMS ONLINE</h2>
+            <p>All J.A.R.V.I.S. systems are operational.</p>
+        </section>
+
+        <!-- System Cards -->
+        <section class="systems">
+
+            <div class="system-card">
+                <span>⚡</span>
+                <div>
+                    <strong>CORE SYSTEM</strong>
+                    <small>Operational</small>
+                </div>
+            </div>
+
+            <div class="system-card">
+                <span>🧠</span>
+                <div>
+                    <strong>AI ENGINE</strong>
+                    <small>Ready</small>
+                </div>
+            </div>
+
+            <div class="system-card">
+                <span>🛡️</span>
+                <div>
+                    <strong>SECURITY</strong>
+                    <small>Protected</small>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Chat -->
+        <section class="chat-section">
+
+            <div class="section-title">
+                <span>J.A.R.V.I.S. CONSOLE</span>
+                <span class="live">● LIVE</span>
+            </div>
+
+            <div id="chat">
+                <div class="msg ai">
+                    J.A.R.V.I.S: Systems online. How may I assist you, Boss?
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input
+                    id="msg"
+                    type="text"
+                    placeholder="Enter command..."
+                    autocomplete="off"
+                >
+
+                <button id="send">➤</button>
+            </div>
+
+        </section>
+
+        <footer>
+            J.A.R.V.I.S. MOBILE EDITION
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
